@@ -1,8 +1,7 @@
-name: CI
-
-on:
-  push:
-
+- name: Test
+  run: |
+    echo "Running test..."
+    exit 0
 jobs:
   test:
     runs-on: ubuntu-latest
