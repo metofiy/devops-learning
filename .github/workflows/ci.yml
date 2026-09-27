@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Test
-        run: |
-          echo "This should fail"
-          exit 1
+  - name: Test
+  run: |
+    echo "CI is working!"
+    exit 0
